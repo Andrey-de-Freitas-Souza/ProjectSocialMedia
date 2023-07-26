@@ -25,15 +25,17 @@ section#telefone{
     left: 50%;
     transform: translate(-50%,-50%);
     height: 527px;
-    width: 311px;
-    background-image: url('../imagens/iframe-iphone13.png');
-    background-repeat: no-repeat;    
+    width: 311px;   
 }
 iframe#tela{
+    background-color: white;
     position: relative;
-    left: 0px;
-    height: 500px ;
-    width: 260px;   
+    top: 32px;
+    left: 16px;
+    height: 463px ;
+    width: 215px;
+    border-bottom-left-radius:23px ;
+    border-bottom-right-radius:23px ;  
 }
 section#redes img{
     width: 50px;
@@ -49,4 +51,9 @@ section#redes img:hover{
     border: 2px solid rgba(255, 255, 255, 0.856);
     transform: translate(-3px, -3px);
     transition: transform 0.1s;
+}
+.iphone{
+    position: relative;
+    margin-top: -450px;
+    pointer-events: none;
 }
